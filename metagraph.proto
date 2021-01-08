@@ -1,0 +1,13 @@
+syntax = "proto3";
+package metagraph;
+service Metagraph {
+	// Gets GData
+	rpc GetGraph (Graph) returns (Graph) {}
+}
+message Graph {
+	repeated int64 uids = 1;
+	repeated int64 eis = 2;
+	repeated int64 ejs = 3;
+	repeated int64 wijs = 4;
+}	
+

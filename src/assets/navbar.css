@@ -1,0 +1,34 @@
+#dropbtn {
+    position: relative;
+    float: right;
+    border:none;
+    outline: none;
+    background-image: url("menuicon.png");
+    background-size: contain;
+    margin: 20px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#dropdown-content {
+    display: block;
+    width: 200px;
+    height: 100%;
+    background-color: white;
+}
+
+.dropdown-item {
+  overflow: hidden;
+  font-size: 15px;
+  padding: 1%;
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+  color: #222222;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
